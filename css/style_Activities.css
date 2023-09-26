@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148901163.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-position: center center; /* Center both horizontally and vertically */
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 25px;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.button {
+    text-align: center;
+    padding-right: 20px; /* Adjust the amount of padding as needed */
+}
+
+.button button {
+    width: 100px; /* Adjust the button width as needed */
+    padding: 10px 15px; /* Adjust padding for top/bottom and left/right as needed */
+    font-size: 30px;
+}
