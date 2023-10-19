@@ -140,6 +140,16 @@ body {
 @media (min-width: 768px) {
     .menu {
         left: 50%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .button {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 }
 
@@ -148,6 +158,9 @@ body {
     .menu {
         left: 0;
         flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
     
     .menu li {
@@ -157,6 +170,12 @@ body {
     .menu a {
         font-size: 30px;
     }
+    .button {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
 }
 
 /* Media query for laptops and larger */
@@ -164,6 +183,7 @@ body {
     .social_contact {
         justify-content: flex-end;
         align-items: center;
+        display: flex;
     }
     
     .social_contact li {
@@ -172,5 +192,11 @@ body {
     
     .social_contact a {
         color: #0077cc;
+    }
+    .button {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 }
