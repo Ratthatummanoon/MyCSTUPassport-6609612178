@@ -135,3 +135,42 @@ body {
     text-decoration: none; /* Remove underlines from links */
     color: #0077cc; /* Set the link color to your desired color */
 }
+
+/* Media query for tablets (landscape) and larger */
+@media (min-width: 768px) {
+    .menu {
+        left: 50%;
+    }
+}
+
+/* Media query for phones */
+@media (max-width: 767px) {
+    .menu {
+        left: 0;
+        flex-direction: column;
+    }
+    
+    .menu li {
+        margin: 10px;
+    }
+    
+    .menu a {
+        font-size: 30px;
+    }
+}
+
+/* Media query for laptops and larger */
+@media (min-width: 1024px) {
+    .social_contact {
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .social_contact li {
+        margin: 0 15px;
+    }
+    
+    .social_contact a {
+        color: #0077cc;
+    }
+}
