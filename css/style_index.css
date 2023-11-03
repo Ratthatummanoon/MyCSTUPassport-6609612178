@@ -141,14 +141,16 @@ body {
     .menu {
         left: 50%;
         flex-direction: row;
+        display: 100%;
     }
 }
 
 /* Media query for phones */
 @media (max-width: 767px) {
     .menu {
-        left: 0;
+        left: 50%;
         flex-direction: column;
+        display: 100%;
     }
     .menu li {
         margin: 10px;
@@ -170,5 +172,12 @@ body {
     }
     .social_contact a {
         color: #0077cc;
+    }
+    .menu {
+        left: 50%;
+        flex-direction: row;
+        display: 100%;
+        justify-content: center;
+        align-items: center; 
     }
 }
