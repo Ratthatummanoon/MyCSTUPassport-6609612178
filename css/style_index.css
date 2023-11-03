@@ -22,7 +22,6 @@ body {
     justify-content: center;
     align-items: center; 
     z-index: 1; /* Make sure the menu appears over the background */
-    flex-direction: column;
 }
 
 .menu li {
@@ -141,6 +140,16 @@ body {
 @media (min-width: 768px) {
     .menu {
         flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
+/* Media query for phones */
+@media (max-width: 767px) {
+    .menu {
+        flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center; 
