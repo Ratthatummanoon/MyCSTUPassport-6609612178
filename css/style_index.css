@@ -141,15 +141,6 @@ body {
     .menu {
         left: 50%;
         flex-direction: row;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
-    .button {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
     }
 }
 
@@ -158,23 +149,12 @@ body {
     .menu {
         left: 0;
         flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
     }
-    
     .menu li {
         margin: 10px;
     }
-    
     .menu a {
         font-size: 30px;
-    }
-    .button {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
     }
 }
 
@@ -185,25 +165,10 @@ body {
         align-items: center;
         display: flex;
     }
-    
     .social_contact li {
         margin: 0 15px;
     }
-    
     .social_contact a {
         color: #0077cc;
-    }
-    .button {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-    }
-    .menu {
-        left: 50%;
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
     }
 }
