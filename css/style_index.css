@@ -22,6 +22,7 @@ body {
     justify-content: center;
     align-items: center; 
     z-index: 1; /* Make sure the menu appears over the background */
+    flex-direction: row;
 }
 
 .menu li {
@@ -141,7 +142,7 @@ body {
     .menu {
         left: 50%;
         flex-direction: row;
-        display: 100%;
+        display: flex;
     }
 }
 
@@ -160,24 +161,22 @@ body {
     }
 }
 
-/* Media query for laptops and larger */
-@media (min-width: 1024px) {
-    .social_contact {
-        justify-content: flex-end;
-        align-items: center;
-        display: flex;
-    }
-    .social_contact li {
-        margin: 0 15px;
-    }
-    .social_contact a {
-        color: #0077cc;
-    }
+/* Media query for tablets (landscape) and larger */
+@media (min-width: 768px) {
     .menu {
-        left: 50%;
-        flex-direction: row;
-        display: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 60%;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        display: flex;
         justify-content: center;
         align-items: center; 
+        z-index: 1; /* Make sure the menu appears over the background */
+        flex-direction: row;
     }
 }
