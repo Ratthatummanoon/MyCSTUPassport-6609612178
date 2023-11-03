@@ -148,7 +148,7 @@ body {
 }
 
 /* Media query for phones */
-@media (max-width: 480px) {
+@media (max-width: 485px) {
     .menu {
         flex-direction: column;
         display: flex;
