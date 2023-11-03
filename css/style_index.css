@@ -143,6 +143,8 @@ body {
         left: 50%;
         flex-direction: row;
         display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 }
 
@@ -151,13 +153,9 @@ body {
     .menu {
         left: 50%;
         flex-direction: column;
-        display: 100%;
-    }
-    .menu li {
-        margin: 10px;
-    }
-    .menu a {
-        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 }
 
