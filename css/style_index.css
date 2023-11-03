@@ -4,7 +4,7 @@ body {
     padding: 0;
     overflow: hidden; /* Hide body overflow to prevent scrolling */
     background: url(https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2021/10/Pastel-Mix-Background-Graphics-10285128-1-1-580x387-1-e1656152839151.png?fit=580%2C387&ssl=1);
-    background-size: cover;
+    background-size: 100%;
 }
 
 /* Style the ul element to cover the entire viewport */
